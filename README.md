@@ -1,4 +1,5 @@
 # Agenteasy
+[English](./readme.md) / [简体中文](./readme_cn.md)
 Agenteasy is an AI library designed to simplify the creation and management of AI applications for humans. It is incredibly easy to use and extend, reducing the burden typically associated with developing AI solutions.
 
 The motivation behind creating Agenteasy stems from the complexity and difficulty of extending current AI tools available in the market. Many of these tools are either too complicated or challenging to customize for specific needs. Agenteasy aims to address these issues by providing a simplified, yet powerful foundation that can serve as the basis for more advanced AI functionality.
