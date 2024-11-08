@@ -17,7 +17,7 @@ class Settings(BaseSettings):
     MONGO_COLLECTION_NAME: str = "test"
 
     # 测试模式
-    DEBUG: bool = True
+    DEBUG: bool = False
 
     @property
     def REDIS_URL(self):
