@@ -1,0 +1,7 @@
+openai
+pydantic
+pydantic-settings
+Jinja2
+pymongo
+pandas
+openpyxl
