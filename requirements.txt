@@ -2,6 +2,6 @@ openai
 pydantic
 pydantic-settings
 Jinja2
+tiktoken
 pymongo
 pandas
-openpyxl

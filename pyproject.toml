@@ -15,6 +15,15 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = [
+  "openai",
+  "pydantic",
+  "pydantic-settings",
+  "Jinja2",
+  "tiktoken",
+]
+[project.optional-dependencies]
+termbase = ["pymongo","pandas"]
 
 [project.urls]
 Homepage = "https://github.com/derMartinLi/agenteasy"

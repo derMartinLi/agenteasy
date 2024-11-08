@@ -1,8 +1,7 @@
-from pymongo.mongo_client import MongoClient
 import re
-import pandas as pd
 from pydantic import BaseModel, HttpUrl
-
+from pymongo.mongo_client import MongoClient
+import pandas as pd
 
 class MongoConfig(BaseModel):
     url: HttpUrl | None = None

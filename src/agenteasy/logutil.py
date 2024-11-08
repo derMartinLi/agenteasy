@@ -14,7 +14,7 @@ logger_name = "agentlog"
 # handler = logging.StreamHandler()
 # handler.addFilter(SpecificLoggerFilter(logger_name))
 FORMAT = "%(levelname)-5s:  [%(asctime)s] %(name)s (%(filename)s - %(funcName)s - %(lineno)d) - %(message)s"
-level = logging.DEBUG if settings.DEBUG else logging.INFO
+level = logging.DEBUG if settings.DEBUG else logging.WARNING
 logging.basicConfig(
     format=FORMAT,
     encoding="utf-8",
